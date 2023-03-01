@@ -5,13 +5,13 @@ public class Pessoa {
     public String telefone;
     public String rg;
     
-    public String PerguntarONome(Pessoa p){
+    public String PerguntarONome(Pessoa p2){
         //System.out.println("Qual é o seu nome?");
         //System.out.println("Meu nome é "+p.nome);
         //p.ResponderONome();
         String retorno = "";
         retorno += "Qual é o seu nome?\n";
-        retorno += p.ResponderONome();
+        retorno += p2.ResponderONome();
         return retorno;
     }
     public String ResponderONome(){

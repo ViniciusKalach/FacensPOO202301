@@ -15,6 +15,7 @@ public class POO {
         //p2.ResponderONome();
         //p.PerguntarONome(p2);
         //System.out.println(p.ResponderONome());
+        p.PerguntarONome(p2);
         System.out.println(p.PerguntarONome(p2));
     }
     
