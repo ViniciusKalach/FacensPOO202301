@@ -23,6 +23,10 @@ public class Exercicio01 {
                     p.setCpf(teclado.nextLine());
                     System.out.println("Digite o nome");
                     p.setNome(teclado.nextLine());
+                    System.out.println("Digite o caracter do sexo");
+                    p.setSexo(teclado.nextLine().charAt(0));
+                    System.out.println("Digite a idade");
+                    p.setIdade(Integer.parseInt(teclado.nextLine()));
 
                     break;
                 case 2:
