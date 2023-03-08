@@ -1,6 +1,6 @@
 package poo;
 
-public class POO {
+public class ExemploAula01 {
 
 
     public static void main(String[] args) {
