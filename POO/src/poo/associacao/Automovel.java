@@ -3,17 +3,23 @@ package poo.associacao;
 public class Automovel {
 
     private String modelo;
-    private String cor;
-    private int ano;
+    protected String cor;
+    public int ano;
     private Motor motor;
     private Pessoa dono;
 
-    public Automovel(String modelo, String cor, int ano) {
-        this.modelo = modelo;
+    public Automovel(String cor, int ano) {
+        //this.modelo = modelo;
         this.cor = cor;
         this.ano = ano;
         this.motor = new Motor(this);
     }
+
+    /*
+    public Automovel() {
+        this.motor = new Motor(this);
+    }
+    */
 
     public Pessoa getDono() {
         return dono;
@@ -38,6 +44,12 @@ public class Automovel {
 
     }
 
+    @Override
+    public String toString() {
+        return "A cor é "+getCor(); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/OverriddenMethodBody
+    }
+    
+/*
     public String getModelo() {
         return modelo;
     }
@@ -45,7 +57,7 @@ public class Automovel {
     public void setModelo(String modelo) {
         this.modelo = modelo;
     }
-
+*/
     public String getCor() {
         return cor;
     }

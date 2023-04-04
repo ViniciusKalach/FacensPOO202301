@@ -3,6 +3,7 @@ package poo.associacao;
 
 public class AulaAssociacao {
     public static void main(String[] args) {
+        /*
         //Motor m1 = new Motor();
         Automovel auto1 = new Automovel("fusca", "azul marinho"
                 , 1963);
@@ -24,5 +25,6 @@ public class AulaAssociacao {
                 get(0).getModelo());
         p1.getAutomoveis().get(1).getMotor().
                 getAutomovel().getDono();
+        */
     }
 }
